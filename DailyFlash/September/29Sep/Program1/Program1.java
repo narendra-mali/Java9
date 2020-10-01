@@ -1,21 +1,17 @@
 
 
-
 class Program1 {
 
 	public static void main(String[] args) {
 	
-		int[] score = new int[5];
-
-		score[0] = 120;
-		score[1] = 100;
-		score[2] = 160;
-		score[3] = 220;
-		score[4] = 80;
+		int[] score = {56,23,45,75,102};
+		int sum = 0;
 
 		for(int i = 0; i < 5; i++) {
 		
-			System.out.println(score[i]);
+			sum = sum + score[i];
 		}
+		
+		System.out.println("Total Score = " + sum);
 	}
 }

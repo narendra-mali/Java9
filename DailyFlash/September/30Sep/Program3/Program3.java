@@ -17,8 +17,6 @@ class MarksArr {
 
 		System.out.println("Total marks = " + total);
 		
-	//	double total = total;
-
 		per = total / 5;
 
 		System.out.println("Percentage = " +per);
