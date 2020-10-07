@@ -46,6 +46,7 @@ class Input3DArray {
 				}
 
                         	System.out.println();
+
 			}
                 }
         }
