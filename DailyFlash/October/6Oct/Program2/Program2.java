@@ -31,12 +31,9 @@ class Array2 {
                         }
                 }
 
+		int sum = 0;
 		for(int i = 0; i < plane; i++) {
 
-			int sum = 0;
-			if(i == 1)
-				break;
-                
 			for(int j = 0; j < row; j++) {
 
 				for(int k = 0; k < col; k++) {
@@ -44,7 +41,7 @@ class Array2 {
 					sum = sum + marr[i][j][k];
 				}
 			}
-			System.out.println("Sum = " + sum);
                 }
+		System.out.println("Sum = " + sum);
         }
 }

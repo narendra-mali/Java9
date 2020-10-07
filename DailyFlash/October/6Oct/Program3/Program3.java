@@ -31,20 +31,6 @@ class Array3 {
                         }
                 }
 
-		System.out.println("3D Matrix : ");
-
-		for(int i = 0; i < plane; i++) {
-			
-			for(int j = 0; j < row; j++) {
-			
-				for(int k = 0; k < col; k++) {
-
-                        		System.out.print(marr[i][j][k] + " ");
-				}
-			}
-
-			System.out.println();
-                }
 
 		System.out.println("First Plane : ");
 		for(int i = 0; i < plane; i++) {
@@ -58,6 +44,7 @@ class Array3 {
 
 				System.out.println();
 			}
+			System.out.println();
                 }
         }
 }

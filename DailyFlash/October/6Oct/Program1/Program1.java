@@ -29,20 +29,11 @@ class Array1 {
 
 					int a = Integer.parseInt(br.readLine());
                                 	marr[i][j][k] = a;
+					sum += a;
 				}
                         }
               }
 
-		for(int i = 0; i < plane; i++) {
-
-                        for(int j = 0; j < row; j++) {
-
-				for(int k = 0; k < col; k++) {
-
-					sum = sum + marr[i][j][k];	
-				}
-			}
-                } 
  		System.out.println("Sum = " + sum);		
         }
 }
