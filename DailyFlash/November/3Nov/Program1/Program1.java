@@ -42,14 +42,14 @@ class MainDemo {
 			empno = sc.nextInt();
 		
 			System.out.print("\nEnter emp name : ");
-			name = sc.next();
+			name = sc.nextLine();
 			sc.next();
 
 			System.out.print("\nEnter emp contact : ");
 			contact = sc.nextInt();
 		
 			System.out.print("\nEnter emp add : ");
-			add = sc.next();
+			add = sc.nextLine();
 	
 			EmployeeDetails e = new EmployeeDetails(empno,name,contact,add);
 			e.display();
